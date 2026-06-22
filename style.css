@@ -348,6 +348,22 @@ a {
     color: #f0a500;
 }
 
+.project-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.project-link.secondary {
+    color: #666;
+    border-bottom-color: #ccc;
+}
+
+.project-link.secondary:hover {
+    color: #f0a500;
+    border-bottom-color: #f0a500;
+}
+
 /* =========================================
    PAGE HEADER (About + Contact pages)
    ========================================= */
